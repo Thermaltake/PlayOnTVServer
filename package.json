@@ -1,0 +1,23 @@
+{
+  "name": "PlayOnTVServer",
+  "version": "0.1.0",
+  "description": "Server part for PlayOnTv Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "socket.io": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agribanov/PlayOnTVServer"
+  },
+  "keywords": [
+    "PlayOnTv"
+  ],
+  "author": "Aleksandr Gribanov"
+}
