@@ -7,7 +7,16 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "socket.io": "*"
+    "express": "*",
+    "connect": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "express-session": "*",
+    "passport": "*",
+    "passport-google": "*",
+    "promised-mongo": "*",
+    "socket.io": "*",
+    "lodash": "*"
   },
   "engines": {
     "node": "0.10.x"
