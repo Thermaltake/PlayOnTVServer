@@ -1,8 +1,9 @@
 <script src="/socket.io/socket.io.js"></script>
 <script>
   var socket = io(location.origin.replace('http','ws'));
-  socket.on('play', function (data) {
-    console.log('Play link', data);
-    // socket.emit('my other event', { my: 'data' });
+  var USER = {};
+  socket.on('user:info', function(user){
+  	USER = user;
+  	refreshPage();
   });
 </script>

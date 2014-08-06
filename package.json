@@ -9,6 +9,7 @@
   "dependencies": {
     "express": "*",
     "connect": "*",
+    "cookie": "*",
     "cookie-parser": "*",
     "body-parser": "*",
     "express-session": "*",
